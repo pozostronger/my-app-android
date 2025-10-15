@@ -28,7 +28,6 @@ Además, se utilizan **intents implícitos y explícitos** para interactuar con 
 3. **Configuración Interna**: Accede a una configuración propia de la aplicación.
 4. **Ver Ubicación en Mapa**: Abre un mapa mostrando una ubicación.
 
----
 
 ## 📋 Requisitos
 
@@ -41,7 +40,38 @@ Además, se utilizan **intents implícitos y explícitos** para interactuar con 
   - Acceso a contactos
   - Envío de SMS (opcional)
 
----
+## 📸 Capturas de pantalla
+
+#### Vista Aulas
+![Vista Aulas](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_aulas.png)
+
+#### Vista Botón Maps
+![Vista Botón Maps](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_botonmaps.png)
+
+#### Vista Configuración
+![Vista Configuración](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_config.png)
+
+#### Vista Config Interna
+![Vista Config Interna](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_confinterna.png)
+
+#### Vista Contactos
+![Vista Contactos](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_contactos.png)
+
+#### Vista Detalle
+![Vista Detalle](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_detalle.png)
+
+#### Vista Home
+![Vista Home](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_home.png)
+
+#### Vista Llamar
+![Vista Llamar](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_llamar.png)
+
+#### Vista SMS
+![Vista SMS](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_sms.png)
+
+#### Vista Ubicación IP
+![Vista Ubicación IP](https://github.com/pozostronger/my-app-android/blob/main/Screenshots_Vista/vista_ubicacionIP.png)
+
 
 ## 🚀 Instalación
 
