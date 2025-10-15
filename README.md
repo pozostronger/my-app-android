@@ -89,5 +89,5 @@ Se utilizan **intents implícitos y explícitos** para interactuar tanto con el 
 
 ## 📦 Instalación y Compilación
 
-
+LINK DESCARGAR APK: https://drive.google.com/file/d/163pzyhVxdAdIb43bBNQ-jiUPNWOuyr6e/view?usp=drive_link
 
