@@ -78,27 +78,6 @@ Además, se utilizan **intents implícitos y explícitos** para interactuar con 
 
 1. Clona el repositorio:
    git clone https://github.com/pozostronger/my-app-android.git
-   
-Organizacion de carpetas:
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/devst/app/
-│   │   │   │   ├── HomeActivity.java
-│   │   │   │   ├── PerfilActivity.java
-│   │   │   │   ├── DetalleActivity.java
-│   │   │   │   ├── ConfigActivity.java
-│   │   │   │   ├── MapActivity.java
-│   │   │   │   ├── CamaraActivity.java
-│   │   │   │   └── EnviarSMSActivity.java
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_home.xml
-│   │   │   │   │   └── ...
-│   │   │   │   ├── values/
-│   │   │   │   └── drawable/
-├── build.gradle
-└── README.md
 
 🧩 Futuras Mejoras
 
