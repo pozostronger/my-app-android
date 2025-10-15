@@ -43,34 +43,35 @@ Además, se utilizan **intents implícitos y explícitos** para interactuar con 
 ## 📸 Capturas de pantalla
 
 #### Vista Aulas
-![Vista Aulas](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_aulas.png)
+![Vista Aulas](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_aulas.png)
 
 #### Vista Botón Maps
-![Vista Botón Maps](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_botonmaps.png)
+![Vista Botón Maps](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_botonmaps.png)
 
 #### Vista Configuración
-![Vista Configuración](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_config.png)
+![Vista Configuración](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_config.png)
 
 #### Vista Config Interna
-![Vista Config Interna](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_confinterna.png)
+![Vista Config Interna](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_confinterna.png)
 
 #### Vista Contactos
-![Vista Contactos](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_contactos.png)
+![Vista Contactos](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_contactos.png)
 
 #### Vista Detalle
-![Vista Detalle](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_detalle.png)
+![Vista Detalle](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_detalle.png)
 
 #### Vista Home
-![Vista Home](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_home.png)
+![Vista Home](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_home.png)
 
 #### Vista Llamar
-![Vista Llamar](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_llamar.png)
+![Vista Llamar](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_llamar.png)
 
 #### Vista SMS
-![Vista SMS](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_sms.png)
+![Vista SMS](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_sms.png)
 
 #### Vista Ubicación IP
-![Vista Ubicación IP](https://raw.githubusercontent.com/pozostronger/my-app-android/main/Screenshots_Vista/vista_ubicacionIP.png)
+![Vista Ubicación IP](https://raw.githubusercontent.com/pozostronger/my-app-android/master/Screenshots_Vista/vista_ubicacionIP.png)
+
 
 
 ## 🚀 Instalación
