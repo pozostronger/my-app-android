@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <!-- Barra superior -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/brand_primary"
+            android:title="Menú Principal"
+            android:titleTextColor="@android:color/white"
+            app:titleCentered="true"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenido principal -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tvBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_main"/>
+
+            <Button
+                android:id="@+id/btnIrPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ir a Perfil (resultado)"/>
+
+            <!-- Evento implícito Nº1: Abrir Aulas Virtuales -->
+            <Button
+                android:id="@+id/btnAulas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Aulas Virtuales"/>
+
+            <Button
+                android:id="@+id/btnEnviarCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Enviar correo"/>
+
+            <Button
+                android:id="@+id/btnCompartir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Compartir texto"/>
+
+            <Button
+                android:id="@+id/btnLinterna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Linterna ON/OFF"/>
+
+            <Button
+                android:id="@+id/btnCamara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Abrir Cámara"/>
+
+            <!-- Evento implícito Nº2: Configuración del Sistema -->
+            <Button
+                android:id="@+id/btnConfiguracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Configuración del Sistema"/>
+
+            <!-- Evento implícito Nº3: Enviar SMS -->
+            <Button
+                android:id="@+id/btnEnviarSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Enviar SMS"/>
+
+            <!-- Evento implícito Nº4: Ver Contactos -->
+            <Button
+                android:id="@+id/btnContactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ver Contactos"/>
+
+            <!-- Evento implícito Nº5: Llamar -->
+            <Button
+                android:id="@+id/btnLlamar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Llamar (abrir marcador)"/>
+
+            <!-- EVENTO EXPLÍCITO 1: DetalleActivity -->
+            <Button
+                android:id="@+id/btnDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ver Detalle Alumno"/>
+
+            <!-- EVENTO EXPLÍCITO 2: ConfigActivity -->
+            <Button
+                android:id="@+id/btnConfigInterna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Configuración Interna"/>
+
+            <!-- EVENTO EXPLÍCITO 3: MapActivity -->
+            <Button
+                android:id="@+id/btnMapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ver Ubicación (Mapa)"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

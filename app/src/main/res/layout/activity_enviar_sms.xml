@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:scrollbars="vertical">
+
+    <!-- Título o mensaje informativo -->
+    <TextView
+        android:id="@+id/textViewSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envío de SMS"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center" />
+
+    <!-- Campo para ingresar el número de teléfono -->
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de teléfono"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Campo para ingresar el mensaje de texto -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Escribe tu mensaje"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Botón para enviar el mensaje -->
+    <Button
+        android:id="@+id/buttonSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar SMS"
+        android:importantForAccessibility="yes" />
+
+    <!-- Mostrar el estado del envío -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del envío"
+        android:textColor="#FF0000"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <!-- Botón Volver -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_marginTop="20dp"
+        android:importantForAccessibility="yes" />
+
+</LinearLayout>
